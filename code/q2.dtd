@@ -3,3 +3,10 @@
 <!ATTLIST who uid ID #REQUIRED>
 <!ELEMENT follower EMPTY>
 <!ATTLIST follower uid CDATA #REQUIRED>
+
+let $doc := doc("users.xml")
+$users := $doc//users/user 
+for $user in $users
+	for $user2 in $users
+		where $user/@uid != $user2/@uid and $user2/@follows = $user/@uid
+return $user count($followers) < 4
