@@ -1,0 +1,54 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE music SYSTEM "music.dtd" >
+<music>
+	<songs>
+		<song sid="s1234" time="March 8" year="1974" >
+			<title>Funny How Love Is</title>
+			<artist>Queen</artist>
+			<composers>
+				<composer>Queen</composer>
+			</composers>
+			<album>Queen II</album>
+		</song>
+		<song sid="s1235" time="June" year="1971" >
+			<title>Ain't No Sunshine</title>
+			<artist>Bill Withers</artist>
+			<composers>
+				<composer>Bill Withers</composer>
+				<composer>Booker T Jones</composer>
+			</composers>
+			<album>Just As I Am</album>
+		</song>
+		<song sid="s1236" time="August" year="1973" >
+			<title>Midnight Train to Georgia</title>
+			<artist>Gladys Knight and the Pips</artist>
+			<composers>
+				<composer>Jim Weatherly</composer>
+			</composers>
+			<album>Imagination</album>
+		</song>
+		<song sid="s1237" time="March 21" year="1987" >
+			<title>With or Without You</title>
+			<artist>U2</artist>
+			<composers>
+				<composer>Bono</composer>
+			</composers>
+			<album>The Joshua Tree</album>
+		</song>
+	</songs>
+	<playlists>
+		<playlist pid="p1" creator="u1" >
+			<track sid="s1234" />
+		</playlist>
+		<playlist pid="p2" creator="u2" >
+			<track sid="s1234" />
+			<track sid="s1235" />
+		</playlist>
+		<playlist pid="p3" creator="u3" >
+			<track sid="s1234" />
+			<track sid="s1237" />
+			<track sid="s1235" />
+		</playlist>
+	</playlists>
+	
+</music>
