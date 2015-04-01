@@ -1,4 +1,4 @@
 <noplaylist>{
 	for $sid in doc("music.xml")//@sid
-	return <song>{data(sid)}</song>
+	return <song sid={$sid}/>
 }</noplaylist>
