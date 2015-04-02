@@ -16,7 +16,7 @@
 	let $music := $doc//songs/song
 
 	for $song in $music
-	return <song sid="{$song/@sid} title="{$song/@title}"> { 
+	return <song sid="{$song/@sid}" title="{$song/@title}"> { 
 	let $allist := $doc//playlists/playlist
 	for $plist in $allist
 		
