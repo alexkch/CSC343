@@ -35,6 +35,14 @@
 			</composers>
 			<album>The Joshua Tree</album>
 		</song>
+		<song sid="s1238" time="July 27" year="1987" >
+			<title>Never Gonna Give You Up</title>
+			<artist>Rick Astley</artist>
+			<composers>
+				<composer>Stock Aitken Waterman</composer>
+			</composers>
+			<album>Whenever You Need Somebody</album>
+		</song>
 	</songs>
 	<playlists>
 		<playlist pid="p1" creator="u1" >
