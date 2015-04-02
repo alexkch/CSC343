@@ -155,7 +155,7 @@
 		<user uid="a23" dob="Feb 24/1954" email="scollins@email.com">
 		<surname>Collins</surname>
 		<givennames>Susanna</givennames>
-		<follows who="a15 a6 a7 ax1"></follows>
+		<follows who="a15 a6 a7"></follows>
 		<playlists>
 			<playlist pid="p2" created="1990" playcount="106" />
 			<playlist pid="p3" created="1990" playcount="42" />
