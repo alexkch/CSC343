@@ -2,7 +2,14 @@
 <!DOCTYPE music SYSTEM "music.dtd" >
 <music>
 	<songs>
-		<song sid="s1234" time="March 8" year="1974" >
+		<song sid="s1239" time="7:26" year="1999">
+			<title>Sandstorm</title>
+			<artist>Darude</artist>
+			<composers>
+				<composer>Darude</composer>
+			</composers>
+		</song>
+		<song sid="s1234" time="2:52" year="1974" >
 			<title>Funny How Love Is</title>
 			<artist>Queen</artist>
 			<composers>
@@ -10,7 +17,7 @@
 			</composers>
 			<album>Queen II</album>
 		</song>
-		<song sid="s1235" time="June" year="1971" >
+		<song sid="s1235" time="2:04" year="1971" >
 			<title>Ain't No Sunshine</title>
 			<artist>Bill Withers</artist>
 			<composers>
@@ -19,7 +26,7 @@
 			</composers>
 			<album>Just As I Am</album>
 		</song>
-		<song sid="s1236" time="August" year="1973" >
+		<song sid="s1236" time="3:55" year="1973" >
 			<title>Midnight Train to Georgia</title>
 			<artist>Gladys Knight and the Pips</artist>
 			<composers>
@@ -27,7 +34,7 @@
 			</composers>
 			<album>Imagination</album>
 		</song>
-		<song sid="s1237" time="March 21" year="1987" >
+		<song sid="s1237" time="4:56" year="1987" >
 			<title>With or Without You</title>
 			<artist>U2</artist>
 			<composers>
@@ -35,7 +42,7 @@
 			</composers>
 			<album>The Joshua Tree</album>
 		</song>
-		<song sid="s1238" time="July 27" year="1987" >
+		<song sid="s1238" time="3:32" year="1987" >
 			<title>Never Gonna Give You Up</title>
 			<artist>Rick Astley</artist>
 			<composers>
@@ -56,6 +63,25 @@
 			<track sid="s1234" />
 			<track sid="s1237" />
 			<track sid="s1235" />
+		</playlist>
+		<playlist pid="p4" creator="u3" >
+			<track sid="s1234" />
+			<track sid="s1237" />
+			<track sid="s1238" />
+		</playlist>
+		<playlist pid="p5" creator="u3" >
+			<track sid="s1234" />
+			<track sid="s1239" />
+			<track sid="s1235" />
+		</playlist>
+		<playlist pid="p6" creator="u3" >
+			<track sid="s1235" />
+		</playlist>
+		<playlist pid="p7" creator="u3" >
+			<track sid="s1234" />
+			<track sid="s1237" />
+			<track sid="s1235" />
+			<track sid="s1239" />
 		</playlist>
 	</playlists>
 	

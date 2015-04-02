@@ -13,7 +13,7 @@
 		</playlists>	
  	</user>
  	<user uid="a2" dob="Mar 3/1990" email="jo@email.com">
-		<surname>Jo</surname>
+		<surname>Bailey</surname>
 		<givennames>Jo</givennames>
 		<follows who="a1"></follows>
 		<playlists>
@@ -23,7 +23,7 @@
 		</playlists>	
  	</user>
  	<user uid="a3" dob="Jan 1/1990" email="sam@email.com">
-		<surname>c</surname>
+		<surname>Burns</surname>
 		<givennames>Samson</givennames>
 		<follows who="a3"></follows>
 		<playlists>
@@ -33,8 +33,8 @@
 		</playlists>	
  	</user>
  	 	<user uid="a4" dob="Mar 10, 2101" email="sasdam@email.com">
-		<surname>c4</surname>
-		<givennames>S4</givennames>
+		<surname>LaCroix</surname>
+		<givennames>Peter</givennames>
 		<follows who="a4"></follows>
 		<playlists>
 			<playlist pid="p1" created="1990" playcount="332" />
@@ -43,8 +43,8 @@
 		</playlists>	
  	</user>
  	 	<user uid="a5" dob="Jan 11/1880" email="sam@email.com">
-		<surname>c5</surname>
-		<givennames>S5</givennames>
+		<surname>Hennessey</surname>
+		<givennames>Bradley</givennames>
 		<follows who="a3"></follows>
 		<playlists>
 			<playlist pid="p1" created="1990" playcount="332" />
@@ -53,28 +53,33 @@
 		</playlists>	
  	</user>
  	 	<user uid="a6" dob="Jan 1/1990" email="sam@email.com">
-		<surname>c6</surname>
-		<givennames>Sa6</givennames>
+		<surname>Lewis</surname>
+		<givennames>Clive</givennames>
 		<follows who="a4 a6 a3"></follows>
 		<playlists>
 			<playlist pid="p1" created="1990" playcount="332" />
 			<playlist pid="p2" created="1998" playcount="212" />
-			<playlist pid="p3" created="1998" playcount="23" />
+			<playlist pid="p4" created="2001" playcount="35" />
+			<playlist pid="p6" created="2005" playcount="23" />
+			<playlist pid="p7" created="1998" playcount="23" />
 		</playlists>	
  	</user>
  	 <user uid="a7" dob="Apr 11/1990" email="sam@email.com">
-		<surname>cool</surname>
-		<givennames>Dave</givennames>
+		<surname>Mound</surname>
+		<givennames>Danny</givennames>
 		<follows who="a12 a7"></follows>
 		<playlists>
 			<playlist pid="p1" created="1990" playcount="332" />
 			<playlist pid="p2" created="1998" playcount="212" />
+			<playlist pid="p4" created="2001" playcount="35" />
+			<playlist pid="p6" created="2005" playcount="23" />
+			<playlist pid="p7" created="1998" playcount="23" />
 			<playlist pid="p3" created="1998" playcount="23" />
 		</playlists>	
  	</user>
- 	 <user uid="a8" dob="Nov 11/2011" email="sam@email.com">
-		<surname>caa</surname>
-		<givennames>Kyle</givennames>
+ 	 <user uid="a8" dob="Nov 11/2011" email="reginald@email.com">
+		<surname>Reader</surname>
+		<givennames>Karen</givennames>
 		<follows who="a2 a1 a5"></follows>
 		<playlists>
 			<playlist pid="p1" created="1990" playcount="332" />
@@ -83,8 +88,8 @@
 		</playlists>	
  	</user>
  	 	<user uid="a9" dob="Jan 1/1990" email="sam@email.com">
-		<surname>asdf</surname>
-		<givennames>Bettey</givennames>
+		<surname>Pitt</surname>
+		<givennames>Frank</givennames>
 		<follows who="a2 a11 a1"></follows>
 		<playlists>
 			<playlist pid="p1" created="1990" playcount="332" />
@@ -93,8 +98,8 @@
 		</playlists>	
  	</user>
  	<user uid="a10" dob="Jan 1/1990" email="sam@email.com">
-		<surname>ceefe</surname>
-		<givennames>Sefefe</givennames>
+		<surname>Crow</surname>
+		<givennames>Jim</givennames>
 		<follows who="a5 a6 a7 a8"></follows>
 		<playlists>
 			<playlist pid="p1" created="1990" playcount="332" />
@@ -105,8 +110,8 @@
 		</playlists>	
  	</user>
  	<user uid="a11" dob="Jan 1/2000" email="a11@email.com">
-		<surname>canted</surname>
-		<givennames>Many</givennames>
+		<surname>Doe</surname>
+		<givennames>John</givennames>
 		<follows who="a1 a2 a11 a12"></follows>
 		<playlists>
 			<playlist pid="p1" created="1990" playcount="332" />
@@ -117,8 +122,8 @@
 		</playlists>	
  	</user>
  	<user uid="a12" dob="Dec 14/1995" email="a12@email.com">
-		<surname>Ododo</surname>
-		<givennames>a12</givennames>
+		<surname>Reibetanz</surname>
+		<givennames>Julia</givennames>
 		<follows who="a1 a2 a7 a10"></follows>
 		<playlists>
 			<playlist pid="p1" created="1990" playcount="332" />
@@ -129,8 +134,8 @@
 		</playlists>	
  	</user>
  	 	<user uid="ax1" dob="Dec 1/2111" email="ax@email.com">
-		<surname>Ododo</surname>
-		<givennames>a12</givennames>
+		<surname>Grease</surname>
+		<givennames>Pauline</givennames>
 		<follows who="a5, a7"></follows>
 		<playlists>
 			<playlist pid="p1" created="1990" playcount="332" />
