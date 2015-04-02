@@ -143,7 +143,7 @@
 			<playlist pid="p3" created="1998" playcount="23" />
 		</playlists>	
  	</user>
-	<user uid="a15" dob="Feb 2/1990" email="alexc@email.com">
+	<user uid="a15" dob="Mar 14/1980" email="alexc@email.com">
 		<surname>Fairjoy</surname>
 		<givennames>Thomas</givennames>
 		<follows who="a1 a2"></follows>
@@ -151,6 +151,16 @@
 			<playlist pid="p4" created="1990" playcount="10" />
 			<playlist pid="p5" created="1990" playcount="2" />
 			<playlist pid="p6" created="2001" playcount="999999" />
+		</playlists>	
+ 	</user>
+		<user uid="a23" dob="Feb 24/1954" email="scollins@email.com">
+		<surname>Collins</surname>
+		<givennames>Susanna</givennames>
+		<follows who="a15 a6 a7"></follows>
+		<playlists>
+			<playlist pid="p2" created="1990" playcount="106" />
+			<playlist pid="p3" created="1990" playcount="42" />
+			<playlist pid="p7" created="2001" playcount="93" />
 		</playlists>	
  	</user>
 </users>
