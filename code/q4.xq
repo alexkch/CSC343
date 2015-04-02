@@ -1,4 +1,11 @@
+declare namespace functx = "http://www.functx.com";
+declare function functx:sequence-deep-equal
+  ( $seq1 as item()* ,
+    $seq2 as item()* )  as xs:boolean {
 
+  every $i in 1 to max((count($seq1),count($seq2)))
+  satisfies deep-equal($seq1[$i],$seq2[$i])
+ } ;
 <pairs> {
 	let $users := doc("users.xml")//user
 	let $five_or_more :=		
@@ -7,6 +14,6 @@
 		return $user
 	for $user1 in $five_or_more
 	for $user2 in $five_or_more
-	where ($user1/@uid < $user2/@uid) and (functx:sequence-deep-equal($user1//@pid, $user2//@pid))
+	where ($user1/@uid < $user2/@uid) and count($user1//@pid)=count($user2//@pid)
 	return <pair uid1="{$user1/@uid}" uid2="{$user2/@uid}"/>
 } </pairs>
