@@ -4,14 +4,13 @@ Checking Assignment 3 (Part 1) Solutions
 
 ------ raw output ------
 
-<noplaylist><song sid="s1236"/><song sid="s1238"/></noplaylist>
+<noplaylist><song sid="s1236"/></noplaylist>
 
 ------ formatted output (therefore well-formed) ------
 
 <?xml version="1.0" standalone="no"?>
 <noplaylist>
   <song sid="s1236"/>
-  <song sid="s1238"/>
 </noplaylist>
 
 ------ checking validity of output ------
@@ -22,7 +21,7 @@ Results valid? (no news is good news)
 
 ------ raw output ------
 
-<fewfollowers><who uid="a4"><follower uid="a4"/><follower uid="a6"/></who><who uid="a5"><follower uid="a8"/><follower uid="a10"/></who><who uid="a6"><follower uid="a6"/><follower uid="a10"/></who><who uid="a8"><follower uid="a10"/></who><who uid="a9"/><who uid="a10"><follower uid="a12"/></who><who uid="a11"><follower uid="a9"/><follower uid="a11"/></who><who uid="a12"><follower uid="a7"/><follower uid="a11"/></who><who uid="ax1"/></fewfollowers>
+<fewfollowers><who uid="a4"><follower uid="a4"/><follower uid="a6"/></who><who uid="a5"><follower uid="a8"/><follower uid="a10"/></who><who uid="a6"><follower uid="a6"/><follower uid="a10"/><follower uid="a23"/></who><who uid="a8"><follower uid="a10"/></who><who uid="a9"/><who uid="a10"><follower uid="a12"/></who><who uid="a11"><follower uid="a9"/><follower uid="a11"/></who><who uid="a12"><follower uid="a7"/><follower uid="a11"/></who><who uid="ax1"/><who uid="a15"><follower uid="a23"/></who><who uid="a23"/></fewfollowers>
 
 ------ formatted output (therefore well-formed) ------
 
@@ -39,6 +38,7 @@ Results valid? (no news is good news)
   <who uid="a6">
     <follower uid="a6"/>
     <follower uid="a10"/>
+    <follower uid="a23"/>
   </who>
   <who uid="a8">
     <follower uid="a10"/>
@@ -56,6 +56,10 @@ Results valid? (no news is good news)
     <follower uid="a11"/>
   </who>
   <who uid="ax1"/>
+  <who uid="a15">
+    <follower uid="a23"/>
+  </who>
+  <who uid="a23"/>
 </fewfollowers>
 
 ------ checking validity of output ------
@@ -66,7 +70,7 @@ Results valid? (no news is good news)
 
 ------ raw output ------
 
-<favourites><user uid="a1" pid="p1" playcount="10"/><user uid="a2" pid="p2" playcount="21"/><user uid="a2" pid="p3" playcount="21"/><user uid="a3" pid="p1" playcount="332"/><user uid="a4" pid="p1" playcount="332"/><user uid="a5" pid="p1" playcount="332"/><user uid="a6" pid="p1" playcount="332"/><user uid="a7" pid="p1" playcount="332"/><user uid="a8" pid="p1" playcount="332"/><user uid="a9" pid="p1" playcount="332"/><user uid="a10" pid="p1" playcount="332"/><user uid="a11" pid="p1" playcount="332"/><user uid="a12" pid="p1" playcount="332"/><user uid="ax1" pid="p1" playcount="332"/></favourites>
+<favourites><user uid="a1" pid="p1" playcount="10"/><user uid="a2" pid="p2" playcount="21"/><user uid="a2" pid="p3" playcount="21"/><user uid="a3" pid="p1" playcount="332"/><user uid="a4" pid="p1" playcount="332"/><user uid="a5" pid="p1" playcount="332"/><user uid="a6" pid="p1" playcount="332"/><user uid="a7" pid="p1" playcount="332"/><user uid="a8" pid="p1" playcount="332"/><user uid="a9" pid="p1" playcount="332"/><user uid="a10" pid="p5" playcount="701"/><user uid="a11" pid="p5" playcount="701"/><user uid="a12" pid="p5" playcount="701"/><user uid="ax1" pid="p1" playcount="332"/><user uid="a15" pid="p6" playcount="999999"/><user uid="a23" pid="p2" playcount="106"/></favourites>
 
 ------ formatted output (therefore well-formed) ------
 
@@ -82,10 +86,12 @@ Results valid? (no news is good news)
   <user uid="a7" pid="p1" playcount="332"/>
   <user uid="a8" pid="p1" playcount="332"/>
   <user uid="a9" pid="p1" playcount="332"/>
-  <user uid="a10" pid="p1" playcount="332"/>
-  <user uid="a11" pid="p1" playcount="332"/>
-  <user uid="a12" pid="p1" playcount="332"/>
+  <user uid="a10" pid="p5" playcount="701"/>
+  <user uid="a11" pid="p5" playcount="701"/>
+  <user uid="a12" pid="p5" playcount="701"/>
   <user uid="ax1" pid="p1" playcount="332"/>
+  <user uid="a15" pid="p6" playcount="999999"/>
+  <user uid="a23" pid="p2" playcount="106"/>
 </favourites>
 
 ------ checking validity of output ------
@@ -96,26 +102,24 @@ Results valid? (no news is good news)
 
 ------ raw output ------
 
-  Lexing Error: 1 Found QName while in operator state [File "q4.xq", line 1, characters 16-19:]
+<pairs><pair uid1="a11" uid2="a12"/></pairs>
 
 ------ formatted output (therefore well-formed) ------
 
-TEMP.xml:2: parser error : Start tag expected, '<' not found
-  Lexing Error: 1 Found QName while in operator state [File "q4.xq", line 1, cha
-  ^
+<?xml version="1.0" standalone="no"?>
+<pairs>
+  <pair uid1="a11" uid2="a12"/>
+</pairs>
 
 ------ checking validity of output ------
 
 Results valid? (no news is good news)
-TEMP.xml:3: parser error : Start tag expected, '<' not found
-  Lexing Error: 1 Found QName while in operator state [File "q4.xq", line 1, cha
-  ^
 
 ============================== Query q5  ==============================
 
 ------ raw output ------
 
-<popularity><histogram pid="p1"><low count="0"/><medium count="2"/><high count="11"/></histogram><histogram pid="p2"><low count="1"/><medium count="1"/><high count="11"/></histogram><histogram pid="p3"><low count="1"/><medium count="12"/><high count="0"/></histogram></popularity>
+<popularity><histogram pid="p1"><low count="0"/><medium count="2"/><high count="11"/></histogram><histogram pid="p2"><low count="1"/><medium count="1"/><high count="12"/></histogram><histogram pid="p3"><low count="1"/><medium count="12"/><high count="0"/></histogram><histogram pid="p4"><low count="2"/><medium count="3"/><high count="0"/></histogram><histogram pid="p5"><low count="1"/><medium count="0"/><high count="3"/></histogram><histogram pid="p6"><low count="0"/><medium count="2"/><high count="2"/></histogram><histogram pid="p7"><low count="0"/><medium count="2"/><high count="1"/></histogram></popularity>
 
 ------ formatted output (therefore well-formed) ------
 
@@ -129,12 +133,32 @@ TEMP.xml:3: parser error : Start tag expected, '<' not found
   <histogram pid="p2">
     <low count="1"/>
     <medium count="1"/>
-    <high count="11"/>
+    <high count="12"/>
   </histogram>
   <histogram pid="p3">
     <low count="1"/>
     <medium count="12"/>
     <high count="0"/>
+  </histogram>
+  <histogram pid="p4">
+    <low count="2"/>
+    <medium count="3"/>
+    <high count="0"/>
+  </histogram>
+  <histogram pid="p5">
+    <low count="1"/>
+    <medium count="0"/>
+    <high count="3"/>
+  </histogram>
+  <histogram pid="p6">
+    <low count="0"/>
+    <medium count="2"/>
+    <high count="2"/>
+  </histogram>
+  <histogram pid="p7">
+    <low count="0"/>
+    <medium count="2"/>
+    <high count="1"/>
   </histogram>
 </popularity>
 
@@ -146,18 +170,21 @@ Results valid? (no news is good news)
 
 ------ raw output ------
 
-  Undefined Error: file: q6.xq not found
+<songcounts><song sid="s1239" title="Sandstorm" playcount="2244"/><song sid="s1234" title="Funny How Love Is" playcount="8762"/><song sid="s1235" title="Ain&apos;t No Sunshine" playcount="1.005346E6"/><song sid="s1236" title="Midnight Train to Georgia" playcount="0"/><song sid="s1237" title="With or Without You" playcount="522"/><song sid="s1238" title="Never Gonna Give You Up" playcount="88"/></songcounts>
 
 ------ formatted output (therefore well-formed) ------
 
-TEMP.xml:2: parser error : Start tag expected, '<' not found
-  Undefined Error: file: q6.xq not found
-  ^
+<?xml version="1.0" standalone="no"?>
+<songcounts>
+  <song sid="s1239" title="Sandstorm" playcount="2244"/>
+  <song sid="s1234" title="Funny How Love Is" playcount="8762"/>
+  <song sid="s1235" title="Ain't No Sunshine" playcount="1.005346E6"/>
+  <song sid="s1236" title="Midnight Train to Georgia" playcount="0"/>
+  <song sid="s1237" title="With or Without You" playcount="522"/>
+  <song sid="s1238" title="Never Gonna Give You Up" playcount="88"/>
+</songcounts>
 
 ------ checking validity of output ------
 
 Results valid? (no news is good news)
-TEMP.xml:3: parser error : Start tag expected, '<' not found
-  Undefined Error: file: q6.xq not found
-  ^
 
