@@ -1,6 +1,7 @@
 
 <pairs> {
 	let $users := doc("users.xml")//user
-	where count($users//playlist) > 4
-	return <user uid="{$users/@uid}"/>
+	for $user in $users
+	where count($user//playlist) > 4
+	return <user uid="{$user/@uid}"/>
 } </pairs>
