@@ -20,5 +20,5 @@ declare function functx:sequence-deep-equal
 			every $p2 in $user2//@pid satisfies ($p2=$user1//@pid)) then
 			<pair uid1="{$user1/@uid}" uid2="{$user2/@uid}"/>
 		else
-			
+			<delete />
 } </pairs>
