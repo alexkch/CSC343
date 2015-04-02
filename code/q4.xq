@@ -1,1 +1,6 @@
-<answer>{return max( (2, 1, 1, 1, 3, 3))}</answer>
+
+<pairs> {
+	let $users := doc("users.xml")//user
+	where count($users//playlist) > 4
+	return $user
+} </pairs>

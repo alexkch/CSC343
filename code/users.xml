@@ -110,6 +110,8 @@
 			<playlist pid="p1" created="1990" playcount="332" />
 			<playlist pid="p2" created="1998" playcount="212" />
 			<playlist pid="p3" created="1998" playcount="23" />
+			<playlist pid="p4" created="1970" playcount="4" />
+			<playlist pid="p5" created="1999" playcount="701" />
 		</playlists>	
  	</user>
  	<user uid="a12" dob="Dec 14/1995" email="a12@email.com">
@@ -120,6 +122,8 @@
 			<playlist pid="p1" created="1990" playcount="332" />
 			<playlist pid="p2" created="1998" playcount="212" />
 			<playlist pid="p3" created="1998" playcount="23" />
+			<playlist pid="p4" created="1970" playcount="4" />
+			<playlist pid="p5" created="1999" playcount="701" />
 		</playlists>	
  	</user>
  	 	<user uid="ax1" dob="Dec 1/2111" email="ax@email.com">
