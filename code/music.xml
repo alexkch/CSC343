@@ -52,32 +52,44 @@
 		</song>
 	</songs>
 	<playlists>
-		<playlist pid="p1" creator="u1" >
+		<playlist pid="p1" creator="a1" >
 			<track sid="s1234" />
 		</playlist>
-		<playlist pid="p2" creator="u2" >
+		<playlist pid="p2" creator="a11" >
 			<track sid="s1234" />
 			<track sid="s1235" />
 		</playlist>
-		<playlist pid="p3" creator="u3" >
+		<playlist pid="p3" creator="a3" >
 			<track sid="s1234" />
 			<track sid="s1237" />
 			<track sid="s1235" />
 		</playlist>
-		<playlist pid="p4" creator="u3" >
+		<playlist pid="p4" creator="a4" >
 			<track sid="s1234" />
 			<track sid="s1237" />
 			<track sid="s1238" />
 		</playlist>
-		<playlist pid="p5" creator="u3" >
+		<playlist pid="p5" creator="ax1" >
 			<track sid="s1234" />
 			<track sid="s1239" />
 			<track sid="s1235" />
 		</playlist>
-		<playlist pid="p6" creator="u3" >
+		<playlist pid="p6" creator="a3" >
 			<track sid="s1235" />
 		</playlist>
-		<playlist pid="p7" creator="u3" >
+		<playlist pid="p7" creator="a3" >
+			<track sid="s1234" />
+			<track sid="s1237" />
+			<track sid="s1235" />
+			<track sid="s1239" />
+		</playlist>
+		<playlist pid="p8" creator="a5" >
+			<track sid="s1234" />
+			<track sid="s1237" />
+			<track sid="s1235" />
+			<track sid="s1239" />
+		</playlist>
+		<playlist pid="p9" creator="a6" >
 			<track sid="s1234" />
 			<track sid="s1237" />
 			<track sid="s1235" />
