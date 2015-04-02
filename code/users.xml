@@ -7,7 +7,7 @@
 		<givennames>Alex</givennames>
 		<follows who="a1"></follows>
 		<playlists>
-			<playlist pid="1" created="1990" playcount="2" />
+			<playlist pid="1" created="1990" playcount="10" />
 			<playlist pid="2" created="1990" playcount="2" />
 			<playlist pid="3" created="1990" playcount="2" />
 		</playlists>	
@@ -17,7 +17,7 @@
 		<givennames>Jo</givennames>
 		<follows who="a1"></follows>
 		<playlists>
-			<playlist pid="1" created="1990" playcount="22" />
+			<playlist pid="1" created="1990" playcount="12" />
 			<playlist pid="2" created="1999" playcount="21" />
 			<playlist pid="3" created="1999" playcount="21" />
 		</playlists>	
