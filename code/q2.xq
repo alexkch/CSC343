@@ -4,6 +4,6 @@
 	let $leaders := tokenize($u1/follows/@who, "/s+")
 	for $leader in $leaders
 	return <who uid="{$leader}">
-				<follower uid="{$ui/@uid}" />
+				<follower uid="{$u1/@uid}" />
 			</who>
 } </fewfollowers>	
