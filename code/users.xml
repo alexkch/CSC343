@@ -143,4 +143,14 @@
 			<playlist pid="p3" created="1998" playcount="23" />
 		</playlists>	
  	</user>
+	<user uid="a15" dob="Feb 2/1990" email="alexc@email.com">
+		<surname>Fairjoy</surname>
+		<givennames>Thomas</givennames>
+		<follows who="a1 a2"></follows>
+		<playlists>
+			<playlist pid="p4" created="1990" playcount="10" />
+			<playlist pid="p5" created="1990" playcount="2" />
+			<playlist pid="p6" created="2001" playcount="999999" />
+		</playlists>	
+ 	</user>
 </users>
