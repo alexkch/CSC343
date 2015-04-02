@@ -1,0 +1,114 @@
+Checking Assignment 3 (Part 1) Solutions
+
+============================== Query q1  ==============================
+
+------ raw output ------
+
+<noplaylist><song sid="s1236"/></noplaylist>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<noplaylist>
+  <song sid="s1236"/>
+</noplaylist>
+
+------ checking validity of output ------
+
+Results valid? (no news is good news)
+
+============================== Query q2  ==============================
+
+------ raw output ------
+
+  Lexing Error: 1 Found QName while in operator state [File "q2.xq", line 2, characters 0-1:]
+
+------ formatted output (therefore well-formed) ------
+
+TEMP.xml:2: parser error : Start tag expected, '<' not found
+  Lexing Error: 1 Found QName while in operator state [File "q2.xq", line 2, cha
+  ^
+
+------ checking validity of output ------
+
+Results valid? (no news is good news)
+TEMP.xml:3: parser error : Start tag expected, '<' not found
+  Lexing Error: 1 Found QName while in operator state [File "q2.xq", line 2, cha
+  ^
+
+============================== Query q3  ==============================
+
+------ raw output ------
+
+  Undefined Error: file: q3.xq not found
+
+------ formatted output (therefore well-formed) ------
+
+TEMP.xml:2: parser error : Start tag expected, '<' not found
+  Undefined Error: file: q3.xq not found
+  ^
+
+------ checking validity of output ------
+
+Results valid? (no news is good news)
+TEMP.xml:3: parser error : Start tag expected, '<' not found
+  Undefined Error: file: q3.xq not found
+  ^
+
+============================== Query q4  ==============================
+
+------ raw output ------
+
+  Undefined Error: file: q4.xq not found
+
+------ formatted output (therefore well-formed) ------
+
+TEMP.xml:2: parser error : Start tag expected, '<' not found
+  Undefined Error: file: q4.xq not found
+  ^
+
+------ checking validity of output ------
+
+Results valid? (no news is good news)
+TEMP.xml:3: parser error : Start tag expected, '<' not found
+  Undefined Error: file: q4.xq not found
+  ^
+
+============================== Query q5  ==============================
+
+------ raw output ------
+
+  Undefined Error: file: q5.xq not found
+
+------ formatted output (therefore well-formed) ------
+
+TEMP.xml:2: parser error : Start tag expected, '<' not found
+  Undefined Error: file: q5.xq not found
+  ^
+
+------ checking validity of output ------
+
+Results valid? (no news is good news)
+TEMP.xml:3: parser error : Start tag expected, '<' not found
+  Undefined Error: file: q5.xq not found
+  ^
+
+============================== Query q6  ==============================
+
+------ raw output ------
+
+  Undefined Error: file: q6.xq not found
+
+------ formatted output (therefore well-formed) ------
+
+TEMP.xml:2: parser error : Start tag expected, '<' not found
+  Undefined Error: file: q6.xq not found
+  ^
+
+------ checking validity of output ------
+
+Results valid? (no news is good news)
+TEMP.xml:3: parser error : Start tag expected, '<' not found
+  Undefined Error: file: q6.xq not found
+  ^
+
