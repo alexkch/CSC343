@@ -1,5 +1,9 @@
+<fewfollowers> {
+
 let $doc := doc("users.xml")
-let $users := $doc//user/@uid 
-for $user in $users
-for $user2 in $users
-return <cool>1 is {$users//@uid} 2 is {$users//@uid} </cool>
+for $u1 in $doc//user
+for $u2 in $doc//user
+where contains($u2//follows/who, $u1/@uid)
+return distinct-values(<who uid="{$u1/@uid}">)
+
+} </fewfollowers>
