@@ -100,6 +100,8 @@
 			<playlist pid="p1" created="1990" playcount="332" />
 			<playlist pid="p2" created="1998" playcount="212" />
 			<playlist pid="p3" created="1998" playcount="23" />
+			<playlist pid="p5" created="1999" playcount="701" />
+			<playlist pid="p6" created="1999" playcount="301" />
 		</playlists>	
  	</user>
  	<user uid="a11" dob="Jan 1/2000" email="a11@email.com">
