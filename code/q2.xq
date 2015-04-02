@@ -1,9 +1,18 @@
 <fewfollowers> {
 
 let $doc := doc("users.xml")
-for $u1 in $doc//user
-for $u2 in $doc//user
-where contains($u2//follows/@who, $u1/@uid)
-return distinct-values(<who uid="{$u1/@uid}"/>)
-
+let $users := $doc//user
+for $user in $users
+where count(for $user2 in $users 
+where contains(concat($user2//follows/@who, " "), concat($user/@uid, " "))
+return $user/@uid) < 4 
+return <who uid="{$user/@uid}"> {for $user3 in $users
+								where contains(concat($user3//follows/@who, " "), concat($user/@uid, " "))
+								return <follower uid="{$user3/@uid}" />} </who>
 } </fewfollowers>
+
+
+
+
+
+

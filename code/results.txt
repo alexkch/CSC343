@@ -4,13 +4,14 @@ Checking Assignment 3 (Part 1) Solutions
 
 ------ raw output ------
 
-<noplaylist><song sid="s1236"/></noplaylist>
+<noplaylist><song sid="s1236"/><song sid="s1238"/></noplaylist>
 
 ------ formatted output (therefore well-formed) ------
 
 <?xml version="1.0" standalone="no"?>
 <noplaylist>
   <song sid="s1236"/>
+  <song sid="s1238"/>
 </noplaylist>
 
 ------ checking validity of output ------
@@ -21,77 +22,125 @@ Results valid? (no news is good news)
 
 ------ raw output ------
 
-  Lexing Error: 1 Found QName while in operator state [File "q2.xq", line 2, characters 0-1:]
+<fewfollowers><who uid="a4"><follower uid="a4"/><follower uid="a6"/></who><who uid="a5"><follower uid="a8"/><follower uid="a10"/></who><who uid="a6"><follower uid="a6"/><follower uid="a10"/></who><who uid="a8"><follower uid="a10"/></who><who uid="a9"/><who uid="a10"><follower uid="a12"/></who><who uid="a11"><follower uid="a9"/><follower uid="a11"/></who><who uid="a12"><follower uid="a7"/><follower uid="a11"/></who><who uid="ax1"/></fewfollowers>
 
 ------ formatted output (therefore well-formed) ------
 
-TEMP.xml:2: parser error : Start tag expected, '<' not found
-  Lexing Error: 1 Found QName while in operator state [File "q2.xq", line 2, cha
-  ^
+<?xml version="1.0" standalone="no"?>
+<fewfollowers>
+  <who uid="a4">
+    <follower uid="a4"/>
+    <follower uid="a6"/>
+  </who>
+  <who uid="a5">
+    <follower uid="a8"/>
+    <follower uid="a10"/>
+  </who>
+  <who uid="a6">
+    <follower uid="a6"/>
+    <follower uid="a10"/>
+  </who>
+  <who uid="a8">
+    <follower uid="a10"/>
+  </who>
+  <who uid="a9"/>
+  <who uid="a10">
+    <follower uid="a12"/>
+  </who>
+  <who uid="a11">
+    <follower uid="a9"/>
+    <follower uid="a11"/>
+  </who>
+  <who uid="a12">
+    <follower uid="a7"/>
+    <follower uid="a11"/>
+  </who>
+  <who uid="ax1"/>
+</fewfollowers>
 
 ------ checking validity of output ------
 
 Results valid? (no news is good news)
-TEMP.xml:3: parser error : Start tag expected, '<' not found
-  Lexing Error: 1 Found QName while in operator state [File "q2.xq", line 2, cha
-  ^
 
 ============================== Query q3  ==============================
 
 ------ raw output ------
 
-  Undefined Error: file: q3.xq not found
+<favourites><user uid="a1" pid="p1" playcount="10"/><user uid="a2" pid="p2" playcount="21"/><user uid="a2" pid="p3" playcount="21"/><user uid="a3" pid="p1" playcount="332"/><user uid="a4" pid="p1" playcount="332"/><user uid="a5" pid="p1" playcount="332"/><user uid="a6" pid="p1" playcount="332"/><user uid="a7" pid="p1" playcount="332"/><user uid="a8" pid="p1" playcount="332"/><user uid="a9" pid="p1" playcount="332"/><user uid="a10" pid="p1" playcount="332"/><user uid="a11" pid="p1" playcount="332"/><user uid="a12" pid="p1" playcount="332"/><user uid="ax1" pid="p1" playcount="332"/></favourites>
 
 ------ formatted output (therefore well-formed) ------
 
-TEMP.xml:2: parser error : Start tag expected, '<' not found
-  Undefined Error: file: q3.xq not found
-  ^
+<?xml version="1.0" standalone="no"?>
+<favourites>
+  <user uid="a1" pid="p1" playcount="10"/>
+  <user uid="a2" pid="p2" playcount="21"/>
+  <user uid="a2" pid="p3" playcount="21"/>
+  <user uid="a3" pid="p1" playcount="332"/>
+  <user uid="a4" pid="p1" playcount="332"/>
+  <user uid="a5" pid="p1" playcount="332"/>
+  <user uid="a6" pid="p1" playcount="332"/>
+  <user uid="a7" pid="p1" playcount="332"/>
+  <user uid="a8" pid="p1" playcount="332"/>
+  <user uid="a9" pid="p1" playcount="332"/>
+  <user uid="a10" pid="p1" playcount="332"/>
+  <user uid="a11" pid="p1" playcount="332"/>
+  <user uid="a12" pid="p1" playcount="332"/>
+  <user uid="ax1" pid="p1" playcount="332"/>
+</favourites>
 
 ------ checking validity of output ------
 
 Results valid? (no news is good news)
-TEMP.xml:3: parser error : Start tag expected, '<' not found
-  Undefined Error: file: q3.xq not found
-  ^
 
 ============================== Query q4  ==============================
 
 ------ raw output ------
 
-  Undefined Error: file: q4.xq not found
+  Lexing Error: 1 Found QName while in operator state [File "q4.xq", line 1, characters 16-19:]
 
 ------ formatted output (therefore well-formed) ------
 
 TEMP.xml:2: parser error : Start tag expected, '<' not found
-  Undefined Error: file: q4.xq not found
+  Lexing Error: 1 Found QName while in operator state [File "q4.xq", line 1, cha
   ^
 
 ------ checking validity of output ------
 
 Results valid? (no news is good news)
 TEMP.xml:3: parser error : Start tag expected, '<' not found
-  Undefined Error: file: q4.xq not found
+  Lexing Error: 1 Found QName while in operator state [File "q4.xq", line 1, cha
   ^
 
 ============================== Query q5  ==============================
 
 ------ raw output ------
 
-  Undefined Error: file: q5.xq not found
+<popularity><histogram pid="p1"><low count="0"/><medium count="2"/><high count="11"/></histogram><histogram pid="p2"><low count="1"/><medium count="1"/><high count="11"/></histogram><histogram pid="p3"><low count="1"/><medium count="12"/><high count="0"/></histogram></popularity>
 
 ------ formatted output (therefore well-formed) ------
 
-TEMP.xml:2: parser error : Start tag expected, '<' not found
-  Undefined Error: file: q5.xq not found
-  ^
+<?xml version="1.0" standalone="no"?>
+<popularity>
+  <histogram pid="p1">
+    <low count="0"/>
+    <medium count="2"/>
+    <high count="11"/>
+  </histogram>
+  <histogram pid="p2">
+    <low count="1"/>
+    <medium count="1"/>
+    <high count="11"/>
+  </histogram>
+  <histogram pid="p3">
+    <low count="1"/>
+    <medium count="12"/>
+    <high count="0"/>
+  </histogram>
+</popularity>
 
 ------ checking validity of output ------
 
 Results valid? (no news is good news)
-TEMP.xml:3: parser error : Start tag expected, '<' not found
-  Undefined Error: file: q5.xq not found
-  ^
 
 ============================== Query q6  ==============================
 
