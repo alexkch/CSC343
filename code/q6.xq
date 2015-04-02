@@ -28,7 +28,7 @@
 	for $song in $tempmusiclist
 	return <song sid="{$song/@sid}" title="{$song/title}" 
 	playcount="{ for $count in $listplaycounts
-	return sum($song[plist/@pid = $count/@pid])
+	return sum(data($song[plist/@pid = $count/@pid]))
 
 	}"/>
 
