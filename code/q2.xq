@@ -1,5 +1,6 @@
 <fewfollowers> {
 	let $doc := doc("users.xml")
 	for $u1 in $doc//user
-	return <who uid="{tokenize("{$u1/follows/@who}", "/s+")}"/>
-} </fewfollowers>
+	for $fu in tokenize("{$u1/follows/@who}", "/s+")
+	return <who uid="{$fu}"/>
+} </fewfollowers>	
