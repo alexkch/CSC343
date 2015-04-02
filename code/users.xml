@@ -62,7 +62,7 @@
 			<playlist pid="p3" created="1998" playcount="23" />
 		</playlists>	
  	</user>
- 	 	<user uid="a7" dob="Apr 11/1990" email="sam@email.com">
+ 	 <user uid="a7" dob="Apr 11/1990" email="sam@email.com">
 		<surname>cool</surname>
 		<givennames>Dave</givennames>
 		<follows who="a12 a7"></follows>
@@ -72,7 +72,7 @@
 			<playlist pid="p3" created="1998" playcount="23" />
 		</playlists>	
  	</user>
- 	 	<user uid="a8" dob="Nov 11/2011" email="sam@email.com">
+ 	 <user uid="a8" dob="Nov 11/2011" email="sam@email.com">
 		<surname>caa</surname>
 		<givennames>Kyle</givennames>
 		<follows who="a2 a1 a5"></follows>

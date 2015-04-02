@@ -1,6 +1,5 @@
 <fewfollowers> {
 
-
 let $doc := doc("users.xml")
 let $users := $doc//user
 for $user in $users
@@ -11,4 +10,9 @@ return <who uid="{$user/@uid}"> {for $user3 in $users
 								where contains(concat($user3//follows/@who, " "), concat($user/@uid, " "))
 								return <follower uid="{$user3/@uid}" />} </who>
 } </fewfollowers>
+
+
+
+
+
 
