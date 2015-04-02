@@ -14,6 +14,6 @@ declare function functx:sequence-deep-equal
 		return $user
 	for $user1 in $five_or_more
 	for $user2 in $five_or_more
-	where ($user1/@uid < $user2/@uid) and not ($user1//@pid except $user2//@pid) and not ($user2//@pid except $user1//@pid)
+	where ($user1/@uid < $user2/@uid) and empty(($user1//@pid except $user2//@pid)) and empty(($user2//@pid except $user1//@pid))
 	return <pair uid1="{$user1/@uid}" uid2="{$user2/@uid}"/>
 } </pairs>
